@@ -3,11 +3,11 @@
 <p align="center">Meghna is a dark single page professional Hugo website theme and crafted with all the necessary elements and features you will need to present your business.</p>
 
 
-<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/meghna" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fmeghna%2Fsite%2F&form_factor=desktop">Page Speed (99%)🚀</a> </h2>
+<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/meghna" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fmeghna%2Fsite%2F&form_factor=desktop">Page Speed (99%)</a> </h2>
 
 <p align=center>
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.115.1" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.115.1&color=f00&logo=hugo" />
+  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.84.0" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.84.0&color=f00&logo=hugo" />
   </a>
 
   <a href="https://github.com/themefisher/meghna-hugo/blob/master/LICENSE">
@@ -32,52 +32,66 @@
 
 ---
 
-## 🔑Key Features
-- 🌍 Multilingual Support (with Language Selector)
-- 📚 Taxonomies
-- 🔍 SEO Friendly
-- 📄 Onepage
-- 📝 Blog Support
-- 🔘 Smooth Scroll
-- 📬 Contact Form Support
-- 🗺️ Google Map Support
-- 🖼️ WebP with Fallback Image Support
-- 🔧 Uses Hugo's Asset Generator with Pipelining, Fingerprinting, Bundling, and Minification by Default
+## Key Features
 
+- Multilingual support. (with language selector)
+- Taxonomies
+- SEO Friendly
+- Onepage
+- Blog Support
+- Smooth Scroll
+- Contact form Support
+- Google Map Support
+- WebP with fallback image support
+- Uses Hugo's asset generator with pipelining, fingerprinting, bundling, and minification by default.
 
-## 🔧Local development
+## Local development
 
 ```bash
 # clone the repository
 git clone git@github.com:themefisher/meghna-hugo.git
 
 # cd in the project directory
-$ npm run project-setup
+$ cd meghna-hugo/exampleSite/
 
 # Start local dev server
-$ npm run dev
+$ hugo server --themesDir ../..
 ```
 
 Or Check out [Full Documentation](https://docs.gethugothemes.com/meghna/?ref=github).
 
+## Content Management System
 
+[![import to
+Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=themefisher/meghna-hugo&engine=hugo&version=0.80.0)
 
-## 🔧Deployment and hosting
+This project has been pre-configured to work with [Forestry](https://forestry.io) a git-based CMS, [import your
+repository in Forestry](https://app.forestry.io/quick-start?repo=themefisher/meghna-hugo&engine=hugo&version=0.80.0) and
+you will be able to edit and preview your site ✨.
+
+Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify).
+
+## Deployment and hosting
 
 [![Deploy to
 Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/themefisher/meghna-hugo)
 
 Follow the steps.
 
+## Prefer a video? (Hugo + Netlify + Forestry)
+
+Build your website with **Meghna Hugo** theme by following these easy steps (No Coding Required!)
+[Video Tutorial](https://youtu.be/ResipmZmpDU).
+
 <!-- reporting issue -->
-## 🐞Reporting Issues
+## Reporting Issues
 
 We use GitHub Issues as the official bug tracker for the Meghna Template. Please Search [existing
 issues](https://github.com/themefisher/meghna-hugo/issues). Someone may have already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new
 issue](https://github.com/themefisher/meghna-hugo/issues).
 
-## 📱Submit Your Website To Our Showcase
+## Submit Your Website To Our Showcase
 
 Are you using Meghna Hugo theme? Submit it to our [showcase](https://gethugothemes.com/showcase). 
 
@@ -89,7 +103,7 @@ View all the websites powered by Meghna Hugo from [here](https://gethugothemes.c
 
 
 <!-- licence -->
-## 📄License
+## License
 
 Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
 [Gethugothemes](https://gethugothemes.com)
@@ -100,7 +114,7 @@ Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed 
 share those images.
 
 <!-- resources -->
-## 🙏Special Thanks
+## Special Thanks
 
 - [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 - [Jquery](https://jquery.com/download/)
@@ -112,7 +126,7 @@ share those images.
 - [Google Fonts](http://fonts.google.com/)
 - [All Contributors](https://github.com/themefisher/meghna-hugo/graphs/contributors)
 
-## 👨‍💻Hire Us
+## Hire Us
 
 Besides developing unique, blazing-fast Hugo themes, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Hugo.
 
@@ -120,8 +134,8 @@ If you need to customize the theme or complete website development from scratch,
 [Services](https://gethugothemes.com/services/?utm_source=meghna_github&utm_medium=referral&utm_campaign=github_theme_readme)**
 
 <!-- premium themes -->
-## 💎Premium Themes By Us
+## Premium Themes By Us
 
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=meghna_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Bigspring](https://demo.gethugothemes.com/thumbnails/bigspring.png)](https://gethugothemes.com/products/bigspring/) | [![Bizcraft](https://demo.gethugothemes.com/thumbnails/bizcraft.png)](https://gethugothemes.com/products/bizcraft/) |
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=meghna_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Bigspring](https://demo.gethugothemes.com/thumbnails/bigspring.png)](https://gethugothemes.com/products/bigspring/) | [![Bizcraft](https://demo.gethugothemes.com/thumbnails/bizcraft.png)](https://gethugothemes.com/products/bizcraft-hugo/) |
 |:---:|:---:|:---:|
 | **Get 55+ Premium Hugo Themes Bundle** | **Bigspring** | **Bizcraft** |
